@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+}
+
+.search-result {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.search-item {
+  margin-right: 20px;
+}
+
+
+.search-item {
+  /* width: 220px;
+  height: 220px; */
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center;
+  vertical-align: center; */
+  top: 8px;
+  right: 8px;
+  background-color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.delete:hover {
+  background-color: rgba(255, 255, 255);
+}
+
+
+.image {
+  width: 180px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.selected {
+  display: flex;
+  width: 390px;
+  justify-content: space-between;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 810px;
+  height: 80px;
+  padding: 22px 27px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.empty-party-char {
+  text-align: center;
+  color: #fff;
+  background: #DADADA;
+  width: 180px;
+  height: 220px;
+  padding-top: 185px;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.party-title {
+  text-align: center;
+}
